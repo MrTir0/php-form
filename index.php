@@ -8,8 +8,8 @@ if (!isset($_GET['sayfa']))
 
     switch ($_GET['sayfa']){ 
 
-        case 'insert':
-            require_once 'insert.php';
+        case 'form':
+            require_once 'form.php';
         break;
     }
 
